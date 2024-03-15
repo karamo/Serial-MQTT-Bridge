@@ -2,17 +2,17 @@
 Beispiele für Self-OTA-Update von verschiedener Art von Web-Servern.
 
 ## 1) Github https
-• Github Repository MUSS public sein !!!  
+• Github Repository MUSS **public** sein !!!  
 • genereller Aufbau des Links zu einer Datei
 
 https://raw.githubusercontent.com/<Github_username>/<repository_name>/<branch_name>/<file_name>.<extension>
 
-• Beispiel für dieses Repository
+• Beispiel für dieses Repository  
 https://www.github.com/karamo/firmware  
 https://raw.githubusercontent.com/karamo/firmware/master/README.md  
 https://raw.githubusercontent.com/karamo/firmware/master/fw_x.y.z.bin
 
-• Serial-Befehl für meine Bridge-FW 
+• Serial-Befehl für meine Bridge-FW  
 @@OTAupdate https://raw.githubusercontent.com/karamo/firmware/master/01_ESP-01S_Serial-MQTT-Bridge_v0.8.12http_s01.bin
 
 ## 2) RPi Webserver
