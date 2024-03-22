@@ -32,6 +32,11 @@ Die Datei befindet sich in: /home/karamo/OTAserver/firmware/
 @echo on  
 @@OTAupdate http://192.168.1.171:3000/firmware/01_ESP-01S_Serial-MQTT-Bridge_v0.8.12http_s01.bin 
 
+## 3) Telegram Group
+• Telegram Bot erstellen. Man erhält: ein **token**  
+• Telegram Gruppe erstellen und **Group-ID** herausfinden  
+
+v 0.1: läuft u.U. noch nicht selektiv in einer Gruppe, falls der Bot in mehreren Gruppen aktiv ist.
 
 ________________________________________________
 • Syntax für die Formatierung:  
