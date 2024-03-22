@@ -16,7 +16,7 @@ https://raw.githubusercontent.com/karamo/firmware/master/fw_x.y.z.bin
 @@OTAupdate https://raw.githubusercontent.com/karamo/firmware/master/01_ESP-01S_Serial-MQTT-Bridge_v0.8.12http_s01.bin
 
 ## 2) RPi Webserver
-• lokaler Web-Server auf einem Raspberry Pi Zero 2W mit **Node.js** und **Express**
+• lokaler Web-Server auf einem **Raspberry Pi Zero 2W** mit **Node.js** und **Express**
 
 <ins>WinSCP:</ins>  
 karamo@rpiz2w.local :22  
@@ -25,7 +25,7 @@ karamo - rpiz2w
 Der Web-Server läuft in: /home/karamo/OTAserver/  
 Die Datei befindet sich in: /home/karamo/OTAserver/firmware/
 
-**rpiz2w.local** geht nicht, es muss die IP verwendet werden: 192.168.1.171
+**rpiz2w.local** geht nicht, es muss die IP verwendet werden z.B.: 192.168.1.171
 
 • Serial-Befehle für meine **Bridge-FW**  
 @@@@@@@@@@ASCII  
