@@ -46,6 +46,11 @@ Beispielprogramm: ![WZ_ATG2_xxx.ino](WZ_ATG2_xxx.ino)
 
 v 0.1: läuft u.U. noch nicht selektiv in einer Gruppe, falls der Bot in mehreren Gruppen aktiv ist.
 
+# ESP-Web-Server
+Varianten für Web-Server auf einem ESP für Konfiguration u/o Steueraufgaben.
+
+![]()
+
 ________________________________________________
 • Syntax für die Formatierung von .md Dateien:  
 https://docs.github.com/de/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax  
