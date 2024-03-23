@@ -3,7 +3,7 @@
 • einzelne **.bin** zum Testen.
 
 ## 1) Github https
-![ESP8266_Self_OTA_Update_minimal.ino](ESP8266_Self_OTA_Update_minimal.ino)
+Beispielprogramm: ![ESP8266_Self_OTA_Update_minimal.ino](ESP8266_Self_OTA_Update_minimal.ino)
 
 • Github Repository MUSS **public** sein !!!  
 • genereller Aufbau des Links zu einer Datei
@@ -39,7 +39,7 @@ IP: 192.168.1.171
 @@OTAupdate http://192.168.1.171:3000/firmware/01_ESP-01S_Serial-MQTT-Bridge_v0.8.12http_s01.bin 
 
 ## 3) Telegram Group
-![WZ_ATG2_xxx.ino](WZ_ATG2_xxx.ino)
+Beispielprogramm: ![WZ_ATG2_xxx.ino](WZ_ATG2_xxx.ino)
 
 • Telegram Bot erstellen. Man erhält ein **token**  
 • Telegram Gruppe erstellen und **Group-ID** herausfinden  
