@@ -4,4 +4,6 @@
 | --- | --- | --- | --- |  
 | ESP-01S | ESP8266 | √ | |  
 
+/assets/images/ESP-01S.jpg
+
 ---
