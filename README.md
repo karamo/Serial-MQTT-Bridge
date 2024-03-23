@@ -47,10 +47,10 @@ Beispielprogramm: ![WZ_ATG2.ino](WZ_ATG2.ino)
 
 v 0.1: läuft u.U. noch nicht selektiv in einer Gruppe, falls der Bot in mehreren Gruppen aktiv ist.
 
-# ESP-Web-Server
-Varianten für Web-Server auf einem ESP für Konfiguration u/o Steueraufgaben.
+# ESP-WiFi-Manager & ESP-Web-Server
+Varianten von WiFi-Managern und Web-Servern auf einem ESP für WiFi- und MQTT-Konfiguration u/o Steuer- u/0 Meldeaufgaben.
 
-![]()
+
 
 ________________________________________________
 • Syntax für die Formatierung von .md Dateien:  
