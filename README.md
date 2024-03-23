@@ -1,5 +1,6 @@
 # Self-OTA-Update
-Beispiele für Self-OTA-Update von verschiedener Art von Web-Servern.
+• Minimal-Versionen als Beispiele für **Self-OTA-Update** von verschiedener Art von Web-Servern.  
+• einzelne **.bin** zum Testen.
 
 ## 1) Github https
 • Github Repository MUSS **public** sein !!!  
@@ -18,14 +19,17 @@ https://raw.githubusercontent.com/karamo/firmware/master/fw_x.y.z.bin
 ## 2) RPi Webserver
 • lokaler Web-Server auf einem **Raspberry Pi Zero 2W** mit **Node.js** und **Express**
 
-<ins>WinSCP:</ins>  
+exemplarische Daten:  
+
+<ins>∆ WinSCP:</ins>  
 karamo@rpiz2w.local :22  
-karamo - rpiz2w 
+karamo - rpiz2w  
+IP: 192.168.1.171
 
-Der Web-Server läuft in: /home/karamo/OTAserver/  
-Die Datei befindet sich in: /home/karamo/OTAserver/firmware/
+∆ Der Web-Server läuft in: /home/karamo/OTAserver/  
+∆ Die Datei befindet sich in: /home/karamo/OTAserver/firmware/
 
-**rpiz2w.local** geht nicht, es muss die IP verwendet werden z.B.: 192.168.1.171
+**rpiz2w.local** geht nicht, es muss die IP verwendet werden!
 
 • Serial-Befehle für meine **Bridge-FW**  
 @@@@@@@@@@ASCII  
@@ -33,11 +37,15 @@ Die Datei befindet sich in: /home/karamo/OTAserver/firmware/
 @@OTAupdate http://192.168.1.171:3000/firmware/01_ESP-01S_Serial-MQTT-Bridge_v0.8.12http_s01.bin 
 
 ## 3) Telegram Group
-• Telegram Bot erstellen. Man erhält: ein **token**  
+• Telegram Bot erstellen. Man erhält ein **token**  
 • Telegram Gruppe erstellen und **Group-ID** herausfinden  
 
 v 0.1: läuft u.U. noch nicht selektiv in einer Gruppe, falls der Bot in mehreren Gruppen aktiv ist.
 
 ________________________________________________
-• Syntax für die Formatierung:  
-https://docs.github.com/de/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+• Syntax für die Formatierung von .md Dateien:  
+https://docs.github.com/de/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax  
+https://docs.github.com/de/get-started/writing-on-github/working-with-advanced-formatting  
+https://hellocoding.de/blog/coding-language/allgemein/markdown-guide  
+https://github.github.com/gfm/#images  
+
