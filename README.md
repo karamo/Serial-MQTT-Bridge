@@ -39,7 +39,7 @@ IP: 192.168.1.171
 @@OTAupdate http://192.168.1.171:3000/firmware/01_ESP-01S_Serial-MQTT-Bridge_v0.8.12http_s01.bin 
 
 ## 3) Telegram Group
-Beispielprogramm: ![WZ_ATG2_xxx.ino](WZ_ATG2.ino)
+Beispielprogramm: ![WZ_ATG2.ino](WZ_ATG2.ino)
 
 • Telegram Bot erstellen. Man erhält ein **token**  
 • Telegram Gruppe erstellen und **Group-ID** herausfinden  
