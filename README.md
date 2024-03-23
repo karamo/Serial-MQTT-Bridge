@@ -18,7 +18,7 @@ https://raw.githubusercontent.com/karamo/firmware/master/fw_x.y.z.bin
 • Serial-Befehl für meine **Bridge-FW**  
 @@OTAupdate https://raw.githubusercontent.com/karamo/firmware/master/01_ESP-01S_Serial-MQTT-Bridge_v0.8.12http_s01.bin
 
-## 2) RPi Webserver
+## 2) RPi Webserver http
 • lokaler Web-Server auf einem **Raspberry Pi Zero 2W** mit **Node.js** und **Express**
 
 exemplarische Daten:  
