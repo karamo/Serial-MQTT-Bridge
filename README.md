@@ -16,7 +16,7 @@ https://raw.githubusercontent.com/karamo/firmware/master/README.md
 https://raw.githubusercontent.com/karamo/firmware/master/fw_x.y.z.bin
 
 • Serial-Befehl für meine **Bridge-FW**  
-@@OTAupdate https://raw.githubusercontent.com/karamo/firmware/master/01_ESP-01S_Serial-MQTT-Bridge_v0.8.12http_s01.bin
+@@OTAupdate https://raw.githubusercontent.com/karamo/firmware/master/WZ_ESP-01S_SMQBridge_v0_8_15.bin
 
 ## 2) RPi Webserver http
 • lokaler Web-Server auf einem **Raspberry Pi Zero 2W** mit **Node.js** und **Express**
@@ -36,7 +36,7 @@ IP: 192.168.1.171
 • Serial-Befehle für meine **Bridge-FW**  
 @@@@@@@@@@ASCII  
 @echo on  
-@@OTAupdate http://192.168.1.171:3000/firmware/01_ESP-01S_Serial-MQTT-Bridge_v0.8.12http_s01.bin 
+@@OTAupdate http://192.168.1.171:3000/firmware/WZ_ESP-01S_SMQBridge_v0_8_15.bin 
 
 ## 3) Telegram Group
 Beispielprogramm: ![WZ_ATG2.ino](WZ_ATG2.ino)
