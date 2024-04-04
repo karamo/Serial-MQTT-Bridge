@@ -21,6 +21,7 @@ sudo npm install express
 Im Verzeichnis von ```index.js``` befindend den kompletten Pfad ermitteln:  
 • ```which node``` liefert ```/usr/bin/node```  
 • ```pwd``` liefert z.B. ```/home/karamo/OTAserver```  
+Mit diesen Infos die Zeile für ```crontab``` zusammenbauen und eintragen:  
 
 ```sudo crontab -e```  
 • am Ende der Datei folgende Zeile eintragen:  
