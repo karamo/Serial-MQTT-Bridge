@@ -11,7 +11,6 @@ Beispielprogramm: ![ESP8266_Self_OTA_Update_minimal.ino](ESP8266_Self_OTA_Update
 https://raw.githubusercontent.com/<Github_username>/<repository_name>/<branch_name>/<file_name>
 
 • Beispiel für dieses Repository  
-https://www.github.com/karamo/firmware  
 https://raw.githubusercontent.com/karamo/firmware/master/README.md  
 https://raw.githubusercontent.com/karamo/firmware/master/fw_x.y.z.bin
 
@@ -19,17 +18,20 @@ https://raw.githubusercontent.com/karamo/firmware/master/fw_x.y.z.bin
 @@OTAupdate https://raw.githubusercontent.com/karamo/firmware/master/WZ_ESP-01S_SMQBridge_v0_8_15.bin
 
 ## 2) RPi Webserver http
-• lokaler Web-Server auf einem **Raspberry Pi Zero 2W** mit **Node.js** und **Express**
+Beispielprogramm: ![ESP8266_Self_OTA_Update_minimal.ino](ESP8266_Self_OTA_Update_minimal.ino)
+
+• lokaler Web-Server auf einem **Raspberry Pi Zero 2W** mit **Node.js** und **Express**  
+Erstellung siehe [OTAserver](https://github.com/karamo/firmware/tree/main/OTAserver)  
 
 exemplarische Daten:  
 
-<ins>∆ WinSCP:</ins>  
+<ins>• WinSCP:</ins>  
 karamo@rpiz2w.local :22  
 karamo - rpiz2w  
 IP: 192.168.1.171
 
-∆ Der Web-Server läuft in: /home/karamo/OTAserver/  
-∆ Die Datei befindet sich in: /home/karamo/OTAserver/firmware/
+• Der Web-Server läuft in: /home/karamo/OTAserver/  
+• Die Datei befindet sich in: /home/karamo/OTAserver/firmware/
 
 **rpiz2w.local** geht nicht, es muss die IP verwendet werden!
 
