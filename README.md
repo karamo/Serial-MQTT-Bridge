@@ -44,14 +44,14 @@ IP: 192.168.1.171
 ## 3) Telegram Group
 Beispielprogramm: ![WZ_ATG2.ino](WZ_ATG2.ino)
 
-• Telegram Bot erstellen. Man erhält ein **token**  
+• Telegram Bot erstellen > Man erhält ein **token**  
 • Telegram Gruppe erstellen und **Group-ID** herausfinden  
 • **credentials.h** muss erstellt werden (s. Muster in .ino)
 
 v 0.1: läuft u.U. noch nicht selektiv in einer Gruppe, falls der Bot in mehreren Gruppen aktiv ist.
 
 # ESP-WiFi-Manager & ESP-Web-Server
-Varianten von WiFi-Managern und Web-Servern auf einem ESP für WiFi- und MQTT-Konfiguration u/o Steuer- u/0 Meldeaufgaben.
+Varianten von WiFi-Managern und Web-Servern auf einem ESP für WiFi- und MQTT-Konfiguration u/o Steuer- u/o Meldeaufgaben.
 
 
 
