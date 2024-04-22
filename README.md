@@ -14,10 +14,9 @@ https://raw.githubusercontent.com/<Github_username>/<repository_name>/<branch_na
 
 • Beispiel für dieses Repository  
 https://raw.githubusercontent.com/karamo/firmware/master/README.md  
-https://raw.githubusercontent.com/karamo/firmware/master/fw_x.y.z.bin
 
 • Serial-Befehl für meine **Bridge-FW**  
-@@OTAupdate https://raw.githubusercontent.com/karamo/firmware/master/WZ_ESP-01S_SMQBridge_v0_8_16.bin
+@@OTAupdate https://raw.githubusercontent.com/karamo/firmware/master/WZ_ESP-01S_SMQBridge_v0_8_19.bin
 
 ## 2) RPi Webserver http
 Beispielprogramm: ![ESP8266_Self_OTA_Update_minimal.ino](ESP8266_Self_OTA_Update_minimal.ino)
@@ -40,7 +39,7 @@ IP: 192.168.1.171
 • Serial-Befehle für meine **Bridge-FW**  
 @@@@@@@@@@ASCII  
 @echo on  
-@@OTAupdate http://192.168.1.171:3000/firmware/WZ_ESP-01S_SMQBridge_v0_8_16.bin 
+@@OTAupdate http://192.168.1.171:3000/firmware/WZ_ESP-01S_SMQBridge_v0_8_19.bin 
 
 ## 3) Telegram Group
 Beispielprogramm: ![WZ_ATG2.ino](WZ_ATG2.ino)
