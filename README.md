@@ -1,3 +1,5 @@
+Die bei der Entwicklung einer transparenten Serial-MQTT-Bridge (full ASCII) getesteten und verwendeten HW-Module und SW-Detaillösungen sind hier (noch unvollständig) dargestellt.
+
 # Self-OTA-Update
 • Minimal-Versionen als Beispiele für **Self-OTA-Update** von verschiedener Art von Web-Servern.  
 • einzelne **.bin** zum Testen.
